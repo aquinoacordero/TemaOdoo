@@ -1,14 +1,13 @@
 {
-    'name': 'Temita',
-    'summary': 'Support for Bootswatch themes in master',
-    'description': 'This theme module is exclusively for master to keep the support of Bootswatch themes which were previously part of the website module in 8.0.',
-    'category': 'Theme',
-    'sequence': 900,
-    'version': '1.0',
-    'depends': ['website'],
-    'data': [
-        'views/theme.xml',
-    ],
-    'images': ['static/description/bootswatch.png'],
-    'application': False,
+  'name':'theme_Temita',
+  'description': 'A description for your theme.',
+  'version':'1.0',
+  'author':'Your name',
+
+  'data': [
+  'views/layout.xml',
+  'views/pages.xml'
+  ],
+  'category': 'Theme/Creative',
+  'depends': ['website', 'website_blog', 'sale'],
 }

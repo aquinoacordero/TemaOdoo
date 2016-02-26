@@ -13,7 +13,7 @@
             <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
                 <div class="container">
                     <div class="alert alert-info mt16" role="alert">
-                        <strong>Bon Jorno</strong> in our website!
+                        <strong>Welcome</strong> in our website!
                     </div>
                 </div>
             </xpath>
