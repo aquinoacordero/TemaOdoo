@@ -40,11 +40,11 @@ Luego creamos un Course predefinido en el xml de demo, podemos crear varios "Cou
 * Creamos el fichero partner.xml en la carpeta views, partner.py en la carpeta raiz, añadimos en los datos del openerp el partnet.xml y importamos en parnet en el init. Con esto ya podremos crear herencias, las cuales un objeto nuevo puede "heredar" partes de un modelo ya existente.
  
 * crear un campo computado, crea un campo y establece su atributo computado en el nombre de un método . El método computado debería simplemente establecer el valor del campo computado en cada record self.
+El valor de un campo computado por lo general depende de los valores de otros campos en el registro computarizada . El ORM     espera que el desarrollador especificar esas dependencias en el método de cálculo con el funcion depends().
 
-El valor de un campo computado por lo general depende de los valores de otros campos en el registro computarizada . El ORM espera que el desarrollador especificar esas dependencias en el método de cálculo con el funcion depends().
-
- * Añadir el porcentaje de asientos cogidos en el modelo sesion.
- * Mostrar el campo en el tree y form views
- * Mostrar los campos como una barra de progreso
+  * Añadir el porcentaje de asientos cogidos en el modelo sesion.
+  * Mostrar el campo en el tree y form views
+  * Mostrar los campos como una barra de progreso
 
 * Añadimos advertencias llamadas onChange en el models.py, las cuales nos dirán cuando un valor es inválido
+![**](https://github.com/aquinoacordero/TemaOdoo_Openacademy/blob/master/model_onChange.PNG)
