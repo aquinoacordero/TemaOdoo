@@ -10,4 +10,4 @@ La estrutura que tenemos en openacademy vamos a modificarla.
 
 * Definir un nuevo modelo de datos denominado “Course” en el módulo(models.py) de openacademy. Cada curso tiene un título y una descripción. Siendo estos obligatorios. Editar el archivo openacademy/models.py para incluir una clase “Course”.
 Luego creamos un Course predefinido en el xml de demo, podemos crear varios "Courses" por defecto.
-  
+ ![**](https://github.com/aquinoacordero/TemaOdoo_Openacademy/blob/master/course_demo.PNG)
