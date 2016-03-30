@@ -20,3 +20,10 @@ Luego creamos un Course predefinido en el xml de demo, podemos crear varios "Cou
  * Una vista (view) se declara como un record del módelo ir.ui.view. El tipo de vista viene indicado por el campo arch
    Tree views el cual muestran los records en una tabla. El elemento raíz es "<"tree">".
    Forms son usados para crear y editar records. Su elemento raiz es "<"form">".
+
+* Search views customizan el campo de búsqueda asociado con el list view. Su elemento raíz es y están compuestos por campos que definen los parámetros de búsqueda.
+![**](https://github.com/aquinoacordero/TemaOdoo_Openacademy/blob/master/view_search.PNG)
+
+*  Creamos un modelo nuevo llamado Session en models.py y creamos tambien su form view en openacademy.xml.
+![**](https://github.com/aquinoacordero/TemaOdoo_Openacademy/blob/master/model_class_session.PNG)
+![**](https://github.com/aquinoacordero/TemaOdoo_Openacademy/blob/master/view_session.PNG)
