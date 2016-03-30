@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+
+        <!-- === Services Page === -->
+        <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+            <xpath expr="link[last()]" position="after">
+                <link href="/Temita/static/css/style.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
